@@ -31,11 +31,6 @@ public class TesteConta1 {
        System.out.println();
        
        //exibe o nome armazenado no obejto minhaConta
-       System.out.printf("O nome do objeto em minhaConta é: %s%n", minhaConta.getNome());
-       
-        
-        
-        
-        
+       System.out.printf("O nome do objeto em minhaConta é: %s%n", minhaConta.getNome());  
     }
 }
