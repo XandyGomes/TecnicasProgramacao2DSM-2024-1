@@ -1,0 +1,4 @@
+com\alexandre\herencapolimorfismo\HerencaPolimorfismo.class
+entities\Company.class
+entities\TaxPayer.class
+entities\Individual.class
