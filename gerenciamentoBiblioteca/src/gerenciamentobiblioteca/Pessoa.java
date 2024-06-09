@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package gestaoescolar;
+package gerenciamentobiblioteca;
 
 /**
  *
@@ -15,16 +15,18 @@ public abstract class Pessoa {
     private String nome;
     private Date dataNascimento;
     private String endereco;
+    private String telefone;
+    private String email;
 
-    // Constructor
-    public Pessoa(String nome, Date dataNascimento, String endereco) {
+    public Pessoa(String nome, Date dataNascimento, String endereco, String telefone, String email) {
         this.nome = nome;
         this.dataNascimento = dataNascimento;
         this.endereco = endereco;
+        this.telefone = telefone;
+        this.email = email;
     }
 
-    // Getters e Setters
-
+    // Getters e setters para todos os atributos
     public String getNome() {
         return nome;
     }
@@ -33,6 +35,7 @@ public abstract class Pessoa {
         this.nome = nome;
     }
 
+    // ... (getters e setters para os demais atributos)
     public Date getDataNascimento() {
         return dataNascimento;
     }
@@ -47,6 +50,22 @@ public abstract class Pessoa {
 
     public void setEndereco(String endereco) {
         this.endereco = endereco;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
 }

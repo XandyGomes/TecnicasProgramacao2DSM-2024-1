@@ -34,6 +34,7 @@ public class Main {
         secretaria.matricular(aluno1, turmaA);
         secretaria.matricular(aluno2, turmaA);
         secretaria.matricular(aluno3, turmaB);
+        
 
         // Registro de notas e frequências
         diarioDeClasse.registrarNota(aluno1, matematica, 9.5);
