@@ -28,3 +28,4 @@ public class ContarParesImpares {
         System.out.println("Quantidade de números ímpares: " + impares);
     }
 }
+
